@@ -1,0 +1,18 @@
+project: "TarForge"
+current_phase: 0
+current_checkpoint: 0
+checkpoint_title: "Documentation Scaffolding"
+allow_behavior_change: false
+
+read_before_every_run:
+  - "docs/TARFORGE_SNAPSHOT.yaml"
+  - "docs/DESIGN_PHILOSOPHY.md"
+  - "docs/INTENDED_USE.md"
+
+rules:
+  - "TARFORGE_BIBLE.md must remain additive-only."
+  - "No runtime code or packaging logic may be created in Phase 0."
+  - "Only documentation and metadata scaffolding are permitted."
+  - "Do not create placeholder Python modules."
+  - "All files must be valid UTF-8 and pass basic linting."
+  - "Do not modify existing Bible entries."
