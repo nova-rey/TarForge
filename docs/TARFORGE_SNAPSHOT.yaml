@@ -1,0 +1,6 @@
+phase: 0
+checkpoint: 0
+title: "Project Initialization"
+description: "Initial documentation scaffolding for TarForge, including roadmap stubs, design philosophy, intended use, and entrypoint metadata."
+status: active
+version: "0.0.0"
